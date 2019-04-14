@@ -43,7 +43,6 @@ project(":desktop") {
     apply(plugin = "java-library")
 
     dependencies {
-        implementation(gradleApi()) // TODO: to remove
         implementation(project(":core"))
         implementation("com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion")
         implementation("com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop")
