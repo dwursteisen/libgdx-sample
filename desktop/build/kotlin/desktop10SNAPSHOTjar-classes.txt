@@ -1,0 +1,1 @@
+/Users/david/workspace/libgdx/libgdx-sample/desktop/build/classes/kotlin/main/sample/MainClass.class

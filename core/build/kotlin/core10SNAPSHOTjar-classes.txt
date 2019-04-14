@@ -1,0 +1,1 @@
+/Users/david/workspace/libgdx/libgdx-sample/core/build/classes/kotlin/main/sample/SampleGame.class:/Users/david/workspace/libgdx/libgdx-sample/core/build/classes/kotlin/main/sample/SampleGameKt.class
