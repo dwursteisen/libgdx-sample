@@ -1,4 +1,9 @@
 .gradle
 .idea
-build
+build/
+core/build/
+desktop/build/
 out
+
+.DS_Store
+
