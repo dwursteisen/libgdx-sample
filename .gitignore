@@ -1,8 +1,8 @@
 .gradle
 .idea
-build/
-core/build/
-desktop/build/
+build
+core/build
+desktop/build
 out
 
 .DS_Store
