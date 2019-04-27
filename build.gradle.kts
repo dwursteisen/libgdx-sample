@@ -4,7 +4,8 @@ plugins {
 
 buildscript {
     dependencies {
-       classpath("com.github.dwursteisen.libgdx-addons:libgdx-gradle-plugin:latest.integration")
+        //classpath("com.github.dwursteisen.libgdx-addons:libgdx-gradle-plugin:latest.integration")
+        classpath("com.github.dwursteisen.libgdx-addons:libgdx-gradle-plugin:dc85f651b7")
     }
 
     repositories {
@@ -12,6 +13,7 @@ buildscript {
         google()
         maven { url = uri("https://oss.sonatype.org/content/repositories/releases/") }
         maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
