@@ -9,8 +9,9 @@ buildscript {
 
     repositories {
         mavenCentral()
-        maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
+        google()
         maven { url = uri("https://oss.sonatype.org/content/repositories/releases/") }
+        maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
     }
 }
 
@@ -21,9 +22,10 @@ allprojects {
     group = "com.github.dwursteisen"
     version = "1.0-SNAPSHOT"
 
-
     repositories {
         mavenCentral()
+        google()
+        jcenter()
         maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
         maven { url = uri("https://oss.sonatype.org/content/repositories/releases/") }
     }
